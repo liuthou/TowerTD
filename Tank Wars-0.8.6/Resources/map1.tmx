@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32">
+  <image source="tile.png" width="224" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+YIRiFiQ2Axp7JKljguLBat5AqmMkUh0x5sEwM5UwLKzRzScXM0HdzsKACbCJ4ZNjQcLEhC0jEeqGi3no+YNc8/ABevkXlxwymw2KCakjBqCbRwgAADbnAbc=
+  </data>
+ </layer>
+ <objectgroup name="obj" width="20" height="20">
+  <object name="1" x="16" y="16"/>
+  <object name="2" x="320" y="16"/>
+  <object name="3" x="624" y="16"/>
+  <object name="4" x="240" y="624"/>
+ </objectgroup>
+ <layer name="boss" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFQBOxQPhHkADzgAHQ==
+  </data>
+ </layer>
+</map>

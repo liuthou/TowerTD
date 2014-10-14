@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tile" tilewidth="16" tileheight="16">
+  <properties>
+   <property name="canBreak" value="1"/>
+  </properties>
+  <image source="tile.png" width="224" height="32"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="canBreak" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="canBreak" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmAEKwjAMRbeqKCisKgp6/4PaQgMhLGmzxRmhHz6r2Raf6RpWh6HLQmNyQEccH4V4UFzP5Q/C+Zb7JyX3VBx/zCfFI8PHcUPckk+qR43Dmk87X1vzRYbDE5/X+kl5PfNJfc4Dn7SuvfHtkveO+a7JN8d8Wo5WvoNz350begSut2QqOl/0c2QMChXDc43zS9aq9js5fuA6Jp8WfO+3BVz/wtfSX/D80nmHPNzz0Bqn+TR8Ut+iedb2v87X+Tpf57Pkg7FnPlo/sAc+XEPM9zTge5A8Vs+fVf288Wm19fr1zoevn3OocGj54Dy3n5Di1HN8rflpP1j7/pzz5f8OzsmXMh7FO9oE6w2OS5X58l7mlfwu4yX7KCrg+gA52h3+
+  </data>
+ </layer>
+ <layer name="boss" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJACAMBME0YBrQ/utMKshPBJmB/R4XAQAAAAAA/Gp1+frEYHfnwm4BRWgAUw==
+  </data>
+ </layer>
+ <objectgroup name="obj" width="40" height="40">
+  <object name="1" x="12" y="12" width="16" height="16"/>
+  <object name="2" x="300" y="12" width="16" height="16"/>
+  <object name="3" x="620" y="12" width="16" height="16"/>
+  <object name="4" x="236" y="620" width="16" height="16"/>
+ </objectgroup>
+</map>
