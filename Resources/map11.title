@@ -1,0 +1,119 @@
+<stage ID ="1" nextStage ="map12.title">
+     <map name="map">map11.tmx</map>
+     <bg name="bg">mymap11.png</bg>
+     <money name="money">2000</money>
+     <group count = "19" delytime = "1.0">
+          <round1 id = "1" delytime ="1.0" >              
+             <enemy id = "2" type = "18" delytime ="1.0" >3</enemy>
+             <enemy id = "2" type = "17" delytime ="1.0" >3</enemy>
+             <enemy id = "2" type = "16" delytime ="1.0" >1</enemy>
+    	 </round1>
+        <round2 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "14" delytime ="1.0" >3</enemy>
+              <enemy id = "2" type = "12" delytime ="1.0" >3</enemy>
+              <enemy id = "2" type = "13" delytime ="1.0" >1</enemy>
+    	</round2>
+        <round3 id = "1" delytime ="1.0">              
+              <enemy id = "1" type = "21" delytime ="1.0" >3</enemy>
+    	 </round3>
+        <round4 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "19" delytime ="1.0" >3</enemy>
+    	</round4>
+	<round5 id = "1" delytime ="3.0">              
+              <enemy id = "1" type = "20" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "12" delytime ="1.5" >1</enemy>
+	      <enemy id = "1" type = "13" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "9" delytime ="1.5" >3</enemy>
+    	</round5>
+        <round6 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "22" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "5" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "3" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "9" delytime ="1.0" >3</enemy>
+    	</round6>
+        <round7 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "17" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "18" delytime ="1.5" >1</enemy>
+	      <enemy id = "1" type = "16" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "19" delytime ="1.5" >3</enemy>
+    	</round7>
+        <round8 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "22" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "18" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "16" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "14" delytime ="1.0" >3</enemy>
+    	</round8>
+         <round9 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "22" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "8" delytime ="1.5" >1</enemy>
+	      <enemy id = "1" type = "15" delytime ="1.5" >3</enemy>
+              <enemy id = "1" type = "19" delytime ="1.5" >3</enemy>
+    	</round9>
+        <round10 id = "1" delytime ="2.0">              
+              <enemy id = "1" type = "8" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "4" delytime ="2.0" >1</enemy>
+	      <enemy id = "1" type = "6"delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "10" delytime ="2.0" >3</enemy>
+    	</round10>
+        <round11 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "13" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "20" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "16" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "17"  delytime ="1.0" >3</enemy>
+    	</round11>
+        <round12 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "21" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "2" delytime ="2.0" >1</enemy>
+	      <enemy id = "1" type = "3" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "8"  delytime ="2.0" >3</enemy>
+    	</round12>
+        <round13 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "14" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "9" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "18" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "12"  delytime ="1.0" >3</enemy>
+    	</round13>
+        <round14 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "6" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "7" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "4" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "17"  delytime ="2.0" >3</enemy>
+    	</round14>
+        <round15 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "20" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "8" delytime ="2.0" >1</enemy>
+	      <enemy id = "1" type = "13" delytime ="2.0" >3</enemy>
+              <enemy id = "1" type = "18"  delytime ="2.0" >3</enemy>
+    	</round15>
+        <round16 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "10" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "19" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "17" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "12"  delytime ="1.0" >3</enemy>
+    	</round16>
+        <round17 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "4" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "7" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "9" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "17"  delytime ="1.0" >3</enemy>
+    	</round17>
+        <round18 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "13" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "21" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "10" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "6"  delytime ="1.0" >3</enemy>
+    	</round18>
+        <round19 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "7" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "20" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "12" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "9"  delytime ="1.0" >3</enemy>
+    	</round19>
+        <round20 id = "1" delytime ="5.0">              
+              <enemy id = "1" type = "16" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "3" delytime ="1.0" >1</enemy>
+	      <enemy id = "1" type = "13" delytime ="1.0" >3</enemy>
+              <enemy id = "1" type = "4"  delytime ="1.0" >3</enemy>
+    	</round20>
+</group>
+</stage>

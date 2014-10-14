@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="title" tilewidth="64" tileheight="64">
+  <image source="title.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="134" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tower" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B4wEiCGnR6sAJc7sXlbnz+GWp+hwF0dzJiYQ8Vv4yCUTAKiAMAVNAAEQ==
+  </data>
+ </layer>
+ <objectgroup name="path" width="32" height="16">
+  <object x="4" y="452"/>
+  <object x="826" y="450"/>
+  <object x="830" y="318"/>
+  <object x="1796" y="322"/>
+ </objectgroup>
+</map>

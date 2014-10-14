@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="title" tilewidth="64" tileheight="64">
+  <image source="title.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="can" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tower" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAEYcND3tJiSOy43EuJUUNdjUkhselLiNkDuGmv9JjT9s8rRMl7RI+4T8jMtOStL6KBh4AACV8AAs
+  </data>
+ </layer>
+ <objectgroup name="path" width="32" height="16">
+  <object x="266" y="372"/>
+  <object x="262" y="690"/>
+  <object x="838" y="696"/>
+  <object x="838" y="372"/>
+  <object x="1094" y="376"/>
+  <object x="1100" y="690"/>
+  <object x="1412" y="696"/>
+  <object x="1416" y="438"/>
+  <object x="1810" y="430"/>
+ </objectgroup>
+</map>
