@@ -1,0 +1,54 @@
+
+#include "GameScene.h"
+#include "StartGameScene.h"
+#include "VisibileSize.h"
+
+Scene * StartGameScene::startSceneCreate()
+{
+	auto scene = Scene::create();
+	auto layer = StartGameScene::create();
+	scene->addChild(layer);
+	return scene;
+}
+bool StartGameScene::init()
+{
+	if (!Layer::init())
+	{
+		return false;
+	}
+
+	addBackGround();
+	addIntoMenu();
+
+	return true;
+}
+
+void StartGameScene::addBackGround(){
+	auto backGround = Sprite::create("WelcomeBackground.png");
+	this->addChild(backGround);
+	backGround->setPosition(vSize / 2);
+	//缩放尺寸大小
+	float scaleX = vSize.width / backGround->getContentSize().width;
+	float scaleY = vSize.height / backGround->getContentSize().height;
+	backGround->setScale(scaleX, scaleY);
+}
+
+void StartGameScene::addIntoMenu(){
+	//按钮背景
+	auto into = Sprite::create("elitetoggle-.png");
+	into->setPosition(vSize / 2 - Size(0, 200));
+	into->setScale(1.2, 1.2);
+	into->setOpacity(170);
+	this->addChild(into);
+	//按钮
+	auto item = MenuItemFont::create("开始游戏", CC_CALLBACK_1(StartGameScene::startCallback, this));
+	auto menu = Menu::create(item, NULL);
+	menu->setPosition(into->getPosition());
+	this->addChild(menu);
+}
+
+void StartGameScene::startCallback(Ref * sender){
+	auto scene = GameScene::create();
+	Director::getInstance()->replaceScene(scene);
+
+}

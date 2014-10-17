@@ -1,0 +1,174 @@
+ <Root>
+		<Stage ID = "1">
+			<name>map01.tmx</name>
+			<property1 gro_posx = "256" gro_posy = "168" gro_width = "246" />
+			<property2 gro_posx = "480" gro_posy = "168" gro_width = "54" />
+			<property3 gro_posx = "704" gro_posy = "168" gro_width = "246"/>
+			<property4 gro_posx = "144" gro_posy = "294" gro_width = "278" />
+			<property5 gro_posx = "480" gro_posy = "294" gro_width = "182" />
+			<property6 gro_posx = "816" gro_posy = "294" gro_width = "278" />
+			<property7 gro_posx = "320" gro_posy = "424" gro_width = "118" />
+			<property8 gro_posx = "672" gro_posy = "424" gro_width = "118" />
+		</Stage>
+		<Stage ID = "2">
+			<name>map02.tmx</name>
+			<property1 gro_posx = "160" gro_posy = "168" gro_width = "300" />
+			<property2 gro_posx = "704" gro_posy = "168" gro_width = "246" />
+			<property3 gro_posx = "448" gro_posy = "264" gro_width = "428" />
+			<property4 gro_posx = "512" gro_posy = "518" gro_width = "222" />
+			<property5 gro_posx = "512" gro_posy = "392" gro_width = "100" />
+			<property6 gro_posx = "800" gro_posy = "392" gro_width = "300" />
+			<property7 gro_posx = "176" gro_posy = "392" gro_width = "310" />
+			<property8 gro_posx = "896" gro_posy = "264" gro_width = "110" />
+		</Stage>
+		<Stage ID = "3">
+			<name>map03.tmx</name>
+			<property1 gro_posx = "320" gro_posy = "136" gro_width = "240" />
+			<property2 gro_posx = "640" gro_posy = "136" gro_width = "240" />
+			<property3 gro_posx = "192" gro_posy = "264" gro_width = "370" />
+			<property4 gro_posx = "480" gro_posy = "264" gro_width = "50" />
+			<property5 gro_posx = "768" gro_posy = "264" gro_width = "370" />
+			<property6 gro_posx = "480" gro_posy = "424" gro_width = "690" />
+		</Stage>
+		<Stage ID = "4">
+			<name>map04.tmx</name>
+			<property1 gro_posx = "320" gro_posy = "136" gro_width = "240" />
+			<property2 gro_posx = "640" gro_posy = "136" gro_width = "240" />
+			<property3 gro_posx = "192" gro_posy = "264" gro_width = "370" />
+			<property4 gro_posx = "480" gro_posy = "264" gro_width = "50" />
+			<property5 gro_posx = "768" gro_posy = "264" gro_width = "370" />
+			<property6 gro_posx = "480" gro_posy = "424" gro_width = "690" />
+		</Stage>
+		<Stage ID = "5">
+			<name>map05.tmx</name>
+			<property1 gro_posx = "160" gro_posy = "160" gro_width = "310" />
+			<property2 gro_posx = "480" gro_posy = "160" gro_width = "54" />
+			<property3 gro_posx = "800" gro_posy = "160" gro_width = "310" />
+			<property4 gro_posx = "480" gro_posy = "256" gro_width = "630" />
+			<property5 gro_posx = "192" gro_posy = "352" gro_width = "310" />
+			<property6 gro_posx = "480" gro_posy = "352" gro_width = "54" />
+			<property7 gro_posx = "768" gro_posy = "352" gro_width = "310" />
+			<property8 gro_posx = "480" gro_posy = "448" gro_width = "374" />
+		</Stage>
+		<Stage ID = "6">
+			<name>map06.tmx</name>
+			<property1 gro_posx = "96" gro_posy = "160" gro_width = "182" />
+			<property2 gro_posx = "416" gro_posy = "160" gro_width = "182" />
+			<property3 gro_posx = "832" gro_posy = "160" gro_width = "182" />
+			<property4 gro_posx = "256" gro_posy = "256" gro_width = "182" />
+			<property5 gro_posx = "608" gro_posy = "256" gro_width = "246" />
+			<property6 gro_posx = "416" gro_posy = "352" gro_width = "246" />
+			<property7 gro_posx = "832" gro_posy = "352" gro_width = "246" />
+			<property8 gro_posx = "192" gro_posy = "448" gro_width = "374" />
+			<property9 gro_posx = "640" gro_posy = "448" gro_width = "246" />
+		</Stage>
+		<Stage ID = "7">
+			<name>map07.tmx</name>
+			<property1 gro_posx = "128" gro_posy = "160" gro_width = "246" />
+			<property2 gro_posx = "416" gro_posy = "160" gro_width = "118" />
+			<property3 gro_posx = "736" gro_posy = "160" gro_width = "246" />
+			<property4 gro_posx = "288" gro_posy = "256" gro_width = "182" />
+			<property5 gro_posx = "576" gro_posy = "256" gro_width = "182" />
+			<property6 gro_posx = "864" gro_posy = "256" gro_width = "182" />
+			<property7 gro_posx = "128" gro_posy = "352" gro_width = "246" />
+			<property8 gro_posx = "728" gro_posy = "352" gro_width = "236" />
+			<property9 gro_posx = "448" gro_posy = "448" gro_width = "384" />
+			<property10 gro_posx = "880" gro_posy = "448" gro_width = "150" />
+			<property11 gro_posx = "192" gro_posy = "512" gro_width = "118" />
+		</Stage>
+		<Stage ID = "8">
+			<name>map08.tmx</name>
+			<property1 gro_posx = "128" gro_posy = "160" gro_width = "246" />
+			<property2 gro_posx = "416" gro_posy = "160" gro_width = "118" />
+			<property3 gro_posx = "736" gro_posy = "160" gro_width = "246" />
+			<property4 gro_posx = "224" gro_posy = "256" gro_width = "182" />
+			<property5 gro_posx = "544" gro_posy = "256" gro_width = "246" />
+			<property6 gro_posx = "864" gro_posy = "256" gro_width = "182" />
+			<property7 gro_posx = "160" gro_posy = "352" gro_width = "310" />
+			<property8 gro_posx = "704" gro_posy = "352" gro_width = "182" />
+			<property9 gro_posx = "448" gro_posy = "448" gro_width = "310" />
+			<property10 gro_posx = "832" gro_posy = "448" gro_width = "182" />
+			
+		</Stage>	
+		<Stage ID = "9">
+			 <name>map09.tmx</name>
+			 <property1 gro_posx = "192" gro_posy = "160" gro_width = "192" />
+			 <property2 gro_posx = "496" gro_posy = "160" gro_width = "224" />
+			 <property3 gro_posx = "784" gro_posy = "160" gro_width = "160" />
+			 <property4 gro_posx = "320" gro_posy = "256" gro_width = "256" />
+			 <property5 gro_posx = "688" gro_posy = "256" gro_width = "224" />
+			 <property6 gro_posx = "96" gro_posy = "352" gro_width = "128" />
+			 <property7 gro_posx = "512" gro_posy = "352" gro_width = "256" />
+			 <property8 gro_posx = "800" gro_posy = "352" gro_width = "128" />
+			 <property9 gro_posx = "304" gro_posy = "416" gro_width = "160" />
+			 <property10 gro_posx = "656" gro_posy = "448" gro_width = "224" />
+	   </Stage>
+	   <Stage ID = "10">
+			 <name>map010.tmx</name>
+			 <property1 gro_posx = "256" gro_posy = "160" gro_width = "320" />
+			 <property2 gro_posx = "720" gro_posy = "160" gro_width = "288" />
+			 <property3 gro_posx = "480" gro_posy = "256" gro_width = "448" />
+			 <property4 gro_posx = "192" gro_posy = "352" gro_width = "192" />
+			 <property5 gro_posx = "464" gro_posy = "352" gro_width = "160" />
+			 <property6 gro_posx = "720" gro_posy = "352" gro_width = "224" />
+			 <property7 gro_posx = "336" gro_posy = "448" gro_width = "224" />
+			 <property8 gro_posx = "640" gro_posy = "448" gro_width = "192" />
+	   </Stage>
+	  <Stage ID = "11">
+			 <name>map011.tmx</name>
+			 <property1 gro_posx = "192" gro_posy = "187" gro_width = "182" />
+			 <property2 gro_posx = "480" gro_posy = "187" gro_width = "246" />
+			 <property3 gro_posx = "768" gro_posy = "187" gro_width = "182" />
+			 <property4 gro_posx = "228" gro_posy = "315" gro_width = "182" />
+			 <property5 gro_posx = "480" gro_posy = "315" gro_width = "118" />
+			 <property6 gro_posx = "736" gro_posy = "315" gro_width = "182" />
+			 <property7 gro_posx = "164" gro_posy = "443" gro_width = "128" />
+			 <property8 gro_posx = "480" gro_posy = "443" gro_width = "310" />
+			 <property9 gro_posx = "800" gro_posy = "443" gro_width = "118" />
+			 <property10 gro_posx = "480" gro_posy = "64" gro_width = "960" />
+				  </Stage>
+	 <Stage ID = "12">
+		<name>map012.tmx</name>
+			 <property1 gro_posx = "192" gro_posy = "187" gro_width = "182" />
+			 <property2 gro_posx = "480" gro_posy = "187" gro_width = "182" />
+			 <property3 gro_posx = "768" gro_posy = "187" gro_width = "182" />
+			 <property4 gro_posx = "96"  gro_posy = "315" gro_width = "182" />
+			 <property5 gro_posx = "480" gro_posy = "315" gro_width = "310" />
+			 <property6 gro_posx = "864" gro_posy = "315" gro_width = "182" />
+			 <property7 gro_posx = "256" gro_posy = "443" gro_width = "246" />
+			 <property8 gro_posx = "704" gro_posy = "443" gro_width = "246" />
+			 <property9 gro_posx = "480" gro_posy = "64" gro_width = "960" />
+  	  </Stage>
+  	 <Stage ID = "13">
+	<name>map013.tmx</name>
+		 <property1 gro_posx = "64" gro_posy = "187" gro_width = "118" />
+		 <property2 gro_posx = "480" gro_posy = "187" gro_width = "310" />
+		 <property3 gro_posx = "896" gro_posy = "187" gro_width = "118" />
+		 <property4 gro_posx = "224" gro_posy = "315" gro_width = "246" />
+		 <property5 gro_posx = "736" gro_posy = "315" gro_width = "246" />
+		 <property6 gro_posx = "96" gro_posy = "443" gro_width = "182" />
+		 <property7 gro_posx = "480" gro_posy = "443" gro_width = "310" />
+		 <property8 gro_posx = "864" gro_posy = "443" gro_width = "182" />
+		 <property9 gro_posx = "480" gro_posy = "64" gro_width = "960" />
+	</Stage>
+   <Stage ID = "14">
+		 <name>map014.tmx</name>
+		 <property1 gro_posx = "96" gro_posy = "187" gro_width = "182" />
+		 <property2 gro_posx = "480" gro_posy = "187" gro_width = "182" />
+		 <property3 gro_posx = "864" gro_posy = "187" gro_width = "182" />
+		 <property4 gro_posx = "288" gro_posy = "315" gro_width = "246" />
+		 <property5 gro_posx = "672" gro_posy = "315" gro_width = "246" />
+		 <property6 gro_posx = "96" gro_posy = "443" gro_width = "182" />
+		 <property7 gro_posx = "480" gro_posy = "443" gro_width = "182" />
+		 <property8 gro_posx = "864" gro_posy = "443" gro_width = "182" />
+		 <property9 gro_posx = "480" gro_posy = "64" gro_width = "960" />
+   </Stage>
+   <Stage ID = "15">
+		 <name>map015.tmx</name>
+		 <property1 gro_posx = "160" gro_posy = "187" gro_width = "118" />
+		 <property2 gro_posx = "800" gro_posy = "187" gro_width = "118" />
+		 <property3 gro_posx = "288" gro_posy = "315" gro_width = "182" />
+		 <property4 gro_posx = "672" gro_posy = "315" gro_width = "214" />
+		 <property5 gro_posx = "480" gro_posy = "64" gro_width = "960" />
+   </Stage>
+ </Root>

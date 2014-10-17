@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="World_B_2" tilewidth="32" tileheight="32">
+  <image source="map1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="bg19a" tilewidth="32" tileheight="32">
+  <image source="bg19a.jpg" width="1024" height="576"/>
+ </tileset>
+ <layer name="bga" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzFzfOPEAwAgOH7vnS5q8u4+rquuuzrwt2WbXPLtrll29yybW7ZNrdsW9/zX7S9z89vjH8CAmISi9jEIZC4xCM+CUhIIhKThCCSkoxgkpOClKQiNWlISzrSk4EQMpKZULIQRlaykZ1wcpCTXOQmD3nJR34KUJBCFKYIERQlkmIUpwQliSKaUpSmDGUpR3kqUJFKVKYKValGdWpQk1rUpg51qUd9GtCQRjSmCU1pRnNa0JJWtKYNbWlHezrQkU50pgtd6UZ3etCTXvSmD33pR38GMJBBDGYIQxnGcEYwklGMZgxjGcd4JjCRSUxmClOZxnRmMJNZzGYOc5nHfBawkEUsZglLWcZyVrCSVaxmDWtZx3o2sJFNbGYLW9nGdnawk13sZg972cd+DnCQQxzmCEc5xnFOcJJTnOYMZznHeS5wkUtc5gpXucZ1bnCTW9zmDne5x30e8JBHPOYJT3nGc17wkle85g1vecd7PvCRT3zmC1/5xnd+8JNf/OYPAf8GBMQgJrGITRwCiUs84pOAhCQiMUkIIinJCCY5KUhJKlKThrSkIz0ZCCEjmQklC2FkJRvZCScHOclFbvKQl3zkpwAFKURhihBBUSIpRnFKUJIooilFacpQlnKUpwIVqURlqlCValSnBjWpRW3qUJd61KcBDWlEY5rQlGY0pwUtaUVr2tCWdrSnAx3pRGe60JVudKcHPelFb/rQl370ZwADGcRghjCUYQxnBCMZxWjGMJZxjGcCE5nEZKYwlWlMZwYzmcVs5jCXecxnAQtZxGKWsJRlLGcFK1nFatawlnWsZwMb2cRmtrCVbWxnBzvZxW72sJd97OcABznEYY5wlGMc5wQnOcVpznCWc5znAhe5xGWucJVrXOcGN7nFbe5wl3vc5wEPecRjnvCUZzznBS95xWve8JZ3vOcDH/nEZ77wlW985wc/+cVv/hAQQ8QkFrGJQyBxiUd8EpCQRCQmCUEkJRnBJCcFKUlFatKQlnSkJwMhZCQzoWQhjKxkIzvh5CAnuchNHvKSj/wUoCCFKEwRIihKJMUoTglKEkU0mfjvL/z/1vd/EBUIFg==
+  </data>
+ </layer>
+ <layer name="bricks" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzlk0EKwCAQA/3/FyvYe4X2Ce4xB1MDrijsQAhiTgmbEuc1fT//uymm2zGnovZyWn/ePaic1MNlyuBe2RGPqYJ7ZaOBezBHZjLouAdzZCaDHh11a/ZW9u+hbs3eyv4RUW5thSu3tsIbDu6a6g==
+  </data>
+ </layer>
+ <layer name="cloud" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBAe4D8YMBsPc9EH8YAHtHweAGo+lxFJAKkNMMANh9CPw=
+  </data>
+ </layer>
+</map>

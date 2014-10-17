@@ -1,0 +1,28 @@
+8
+
+dir
+5
+svn://172.16.8.224/dota/Resources/dota1/Backup/20140924%20140006
+svn://172.16.8.224/dota
+
+
+
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+
+svn:special svn:externals svn:needs-lock
+
+dota.json
+file
+
+
+
+
+2014-09-24T06:00:06.189424Z
+336bd53cf3404d2f4f388948f1d4bbde
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+

@@ -1,0 +1,117 @@
+ <Root>
+		<Stage ID = "1">
+			<name>map01.tmx</name>
+			<property1 enemyname = "enemy11Hurt_01.png" enemytype = "11" enemyspeed = "70"  enemyposition_x = "700" enemyposition_y = "368" enemybody_x = "60" enemybody_y = "85" enemyAI = "8"/>
+			<property2 enemyname = "enemy11Hurt_01.png" enemytype = "11" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "368" enemybody_x = "60" enemybody_y = "85" enemyAI = "8"/>
+			<property3 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "70"  enemyposition_x = "500" enemyposition_y = "368" enemybody_x = "60" enemybody_y = "85" enemyAI = "2"/>
+            <property4 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "50"  enemyposition_x = "680" enemyposition_y = "478" enemybody_x = "60" enemybody_y = "85" enemyAI = "2"/>
+		</Stage>
+		<Stage ID = "2">
+			<name>map02.tmx</name>
+			<property1 enemyname = "enemy12Hurt_01.png" enemytype = "12" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "278" enemybody_x = "60" enemybody_y = "85" enemyAI = "6"/>
+			<property2 enemyname = "enemy11Hurt_01.png" enemytype = "11" enemyspeed = "70"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "8"/>
+			<property3 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "50"  enemyposition_x = "500" enemyposition_y = "288" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>
+			<property4 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "60"  enemyposition_x = "400" enemyposition_y = "506" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property5 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "80"  enemyposition_x = "600" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+		</Stage>
+		<Stage ID = "3">
+			<name>map03.tmx</name>
+			<property1 enemyname = "enemy12Hurt_01.png" enemytype = "12" enemyspeed = "60"  enemyposition_x = "700" enemyposition_y = "178" enemybody_x = "60" enemybody_y = "85" enemyAI = "6"/>
+			<property2 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "80"  enemyposition_x = "300" enemyposition_y = "578" enemybody_x = "60" enemybody_y = "85" enemyAI = "1"/>
+			<property3 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "80"  enemyposition_x = "400" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "1"/>
+			<property4 enemyname = "enemy13Hurt_01.png" enemytype = "13" enemyspeed = "69"  enemyposition_x = "800" enemyposition_y = "208" enemybody_x = "60" enemybody_y = "85" enemyAI = "3"/>
+			<property5 enemyname = "enemy13Hurt_01.png" enemytype = "13" enemyspeed = "100"  enemyposition_x = "300" enemyposition_y = "278" enemybody_x = "60" enemybody_y = "85" enemyAI = "3"/>
+		</Stage>
+		<Stage ID = "4">
+			<name>map04.tmx</name>
+			<property1 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "120"  enemyposition_x = "500" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "1"/>
+			<property2 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "96" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>
+			<property3 enemyname = "enemy13Hurt_01.png" enemytype = "13" enemyspeed = "90"  enemyposition_x = "450" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "3"/>
+			<property4 enemyname = "enemy13Hurt_01.png" enemytype = "13" enemyspeed = "150"  enemyposition_x = "200" enemyposition_y = "396" enemybody_x = "40" enemybody_y = "85" enemyAI = "3"/>
+			<property5 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "496" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property6 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "50"  enemyposition_x = "500" enemyposition_y = "600" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+		</Stage>
+		<Stage ID = "5">
+			<name>map05.tmx</name>
+			<property1 enemyname = "enemy11Hurt_01.png" enemytype = "11" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "8"/>
+			<property2 enemyname = "enemy14Hurt_01.png" enemytype = "14" enemyspeed = "80"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property3 enemyname = "enemy13Hurt_01.png" enemytype = "13" enemyspeed = "65"  enemyposition_x = "350" enemyposition_y = "236" enemybody_x = "40" enemybody_y = "85" enemyAI = "3"/>
+			<property4 enemyname = "enemy15Hurt_01.png" enemytype = "15" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "236" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>
+		</Stage>
+		<Stage ID = "6">
+			<name>map06.tmx</name>
+			<property1 enemyname = "enemy22Hurt_01.png" enemytype = "22" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "1"/>
+			<property2 enemyname = "enemy22Hurt_01.png" enemytype = "22" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "1"/>
+			<property3 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "8"/>
+			<property4 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "8"/>
+		</Stage>
+		<Stage ID = "7">
+			<name>map07.tmx</name>
+			<property1 enemyname = "enemy22Hurt_01.png" enemytype = "22" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>
+			<property2 enemyname = "enemy22Hurt_01.png" enemytype = "22" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>			
+			<property3 enemyname = "enemy25Hurt_01.png" enemytype = "25" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85"  enemyAI = "7"/>
+			<property4 enemyname = "enemy26Hurt_01.png" enemytype = "26" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85"  enemyAI = "6"/>
+			<property5 enemyname = "enemy25Hurt_01.png" enemytype = "25" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "7"/>
+		</Stage>
+		<Stage ID = "8">
+			<name>map08.tmx</name>
+			<property1 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "8"/>
+			<property2 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "8"/>
+			<property3 enemyname = "enemy24Hurt_01.png" enemytype = "24" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property4 enemyname = "enemy24Hurt_01.png" enemytype = "24" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property5 enemyname = "enemy26Hurt_01.png" enemytype = "26" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "6"/>
+		</Stage>	
+		<Stage ID = "9">
+			<name>map09.tmx</name>
+			<property1 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "78" enemybody_x = "60" enemybody_y = "85" enemyAI = "8"/>
+			<property2 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "8"/>
+			<property3 enemyname = "enemy23Hurt_01.png" enemytype = "23" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "4"/>
+			<property4 enemyname = "enemy24Hurt_01.png" enemytype = "24" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property5 enemyname = "enemy26Hurt_01.png" enemytype = "26" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "6"/>
+			<property6 enemyname = "enemy26Hurt_01.png" enemytype = "26" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "6"/>
+		</Stage>	
+		<Stage ID = "10">
+			<name>map010.tmx</name>
+			<property1 enemyname = "enemy21Hurt_01.png" enemytype = "21" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "1"/>
+			<property2 enemyname = "enemy24Hurt_01.png" enemytype = "24" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "2"/>
+			<property3 enemyname = "enemy25Hurt_01.png" enemytype = "25" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "7"/>
+			<property4 enemyname = "enemy26Hurt_01.png" enemytype = "26" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "196" enemybody_x = "40" enemybody_y = "85" enemyAI = "6"/>
+		</Stage>	
+		<Stage ID = "11">
+			<name>map011.tmx</name>
+			<property1 enemyname = "enemy44Hurt_01.png" enemytype = "44" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "40" enemyAI = "2"/>
+			<property2 enemyname = "enemy46Hurt_01.png" enemytype = "46" enemyspeed = "50"  enemyposition_x = "228" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "6"/>
+			<property3 enemyname = "enemy46Hurt_01.png" enemytype = "46" enemyspeed = "50"  enemyposition_x = "480" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "6"/>
+			<property4 enemyname = "enemy42Hurt_01.png" enemytype = "42" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "8"/>
+		</Stage>	
+		<Stage ID = "12">
+			<name>map012.tmx</name>
+			<property1 enemyname = "enemy41Hurt_01.png" enemytype = "41" enemyspeed = "50"  enemyposition_x = "480" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "1"/>
+			<property2 enemyname = "enemy41Hurt_01.png" enemytype = "41" enemyspeed = "50"  enemyposition_x = "192" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "1"/>
+			<property3 enemyname = "enemy44Hurt_01.png" enemytype = "44" enemyspeed = "50"  enemyposition_x = "768" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "40" enemyAI = "2"/>
+			<property4 enemyname = "enemy46Hurt_01.png" enemytype = "46" enemyspeed = "50"  enemyposition_x = "256" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "6"/>
+			<property5 enemyname = "enemy46Hurt_01.png" enemytype = "46" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "496"  enemybody_x = "40" enemybody_y = "70" enemyAI = "6"/>
+		</Stage>	
+		<Stage ID = "13">
+			<name>map013.tmx</name>
+			<property1 enemyname = "enemy41Hurt_01.png" enemytype = "41" enemyspeed = "50"  enemyposition_x = "96" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "1"/>
+			<property2 enemyname = "enemy43Hurt_01.png" enemytype = "43" enemyspeed = "50"  enemyposition_x = "64" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "7"/>
+			<property3 enemyname = "enemy43Hurt_01.png" enemytype = "43" enemyspeed = "50"  enemyposition_x = "896" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "7"/>
+			<property4 enemyname = "enemy45Hurt_01.png" enemytype = "45" enemyspeed = "50"  enemyposition_x = "864" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "4"/>
+			<property5 enemyname = "enemy45Hurt_01.png" enemytype = "45" enemyspeed = "50"  enemyposition_x = "224" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "4"/>
+		</Stage>	
+		<Stage ID = "14">
+			<name>map014.tmx</name>
+			<property1 enemyname = "enemy45Hurt_01.png" enemytype = "45" enemyspeed = "50"  enemyposition_x = "97" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "7"/>
+			<property2 enemyname = "enemy41Hurt_01.png" enemytype = "41" enemyspeed = "50"  enemyposition_x = "672" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "1"/>
+			<property3 enemyname = "enemy44Hurt_01.png" enemytype = "44" enemyspeed = "50"  enemyposition_x = "288" enemyposition_y = "365"  enemybody_x = "40" enemybody_y = "70" enemyAI = "2"/>
+			<property4 enemyname = "enemy43Hurt_01.png" enemytype = "43" enemyspeed = "50"  enemyposition_x = "480" enemyposition_y = "493"  enemybody_x = "40" enemybody_y = "70" enemyAI = "7"/>
+			<property5 enemyname = "enemy41Hurt_01.png" enemytype = "41" enemyspeed = "50"  enemyposition_x = "96" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "3"/>
+			<property6 enemyname = "enemy44Hurt_01.png" enemytype = "44" enemyspeed = "50"  enemyposition_x = "864" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "2"/>
+		</Stage>	
+		<Stage ID = "15">
+			<name>map015.tmx</name>
+			<property1 enemyname = "enemy44Hurt_01.png" enemytype = "44" enemyspeed = "50"  enemyposition_x = "700" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "2"/>
+			<property2 enemyname = "enemy42Hurt_01.png" enemytype = "42" enemyspeed = "50"  enemyposition_x = "200" enemyposition_y = "230"  enemybody_x = "40" enemybody_y = "70" enemyAI = "8"/>
+		</Stage>
+ </Root>

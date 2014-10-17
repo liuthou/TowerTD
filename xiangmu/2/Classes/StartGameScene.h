@@ -1,0 +1,23 @@
+
+#ifndef __Dota_Legend__StartGameScene__
+#define __Dota_Legend__StartGameScene__
+
+#include <stdio.h>
+#include "cocos2d.h"
+
+using namespace cocos2d;
+class StartGameScene :public Layer{
+protected:
+	void addBackGround();
+	void addIntoMenu();
+	void startCallback(Ref * sender);
+	void loadingBar();
+public:
+	void onEnter();
+	void update(float t);
+	static Scene * startSceneCreate();
+	virtual bool init();
+	CREATE_FUNC(StartGameScene);
+
+};
+#endif /* defined(__Dota_Legend__StartGameScene__) */

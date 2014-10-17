@@ -1,0 +1,4 @@
+﻿<FlyEnemys>
+	<Enemy HP="100" ARMOR="20" ATTACKRANGE="500" ATTACK="30" SPEED="70" HERODIE="false" ATTACKRATE="10" MOVE="personmove" DIE="persondie" ATTACKANI="personattack" SKILL="personskill" KIND="long">
+	</Enemy>
+</FlyEnemys>

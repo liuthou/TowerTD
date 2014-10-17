@@ -1,0 +1,4 @@
+﻿<dinosaurEnemy>
+	<dinosaur HP="200" ATTACKRANGE="500" ARMOR="20" ATTACK="40" SPEED="70" HERODIE="false" ATTACKRATE="10" MOVE="dinosaurmove" DIE="dinosaurdie" ATTACKANI="dinosaurattack" SKILL="dinosaurskill" KIND="long">
+	</dinosaur>
+</dinosaurEnemy>

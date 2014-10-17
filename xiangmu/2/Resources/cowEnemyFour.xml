@@ -1,0 +1,4 @@
+﻿<cowEnemy>
+	<cow HP="400" ATTACKRANGE="500" ARMOR="60" ATTACK="35" SPEED="90" HERODIE="false" ATTACKRATE="10" MOVE="cowmove" DIE="cowdie" ATTACKANI="cowattack" SKILL="cowskill" KIND="near">
+	</cow>
+</cowEnemy>

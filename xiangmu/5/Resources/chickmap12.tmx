@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="texture02" tilewidth="32" tileheight="32">
+  <image source="texture02.png" width="2048" height="2048"/>
+ </tileset>
+ <objectgroup name="blocksLayer" width="60" height="20">
+  <object name="huo" x="160" y="332" width="75" height="87">
+   <properties>
+    <property name="attack" value="0.15"/>
+    <property name="filename" value="campfire-sheet0"/>
+    <property name="name" value="campfire"/>
+    <property name="picnumber" value="9"/>
+    <property name="type" value="true"/>
+   </properties>
+  </object>
+  <object name="dianwang" x="556" y="373" width="201" height="56">
+   <properties>
+    <property name="attack" value="0.2"/>
+    <property name="filename" value="e_fence-sheet0"/>
+    <property name="name" value="e_fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="shengzi" x="639" y="63" width="51" height="83">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="ropehook-sheet0"/>
+    <property name="name" value="ropehook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="mutou" x="1098" y="232" width="115" height="160">
+   <properties>
+    <property name="attack" value="0.15"/>
+    <property name="filename" value="barricade-sheet0"/>
+    <property name="name" value="barricade"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="xiaotizi" x="1666" y="332" width="100" height="97">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="toolsLayer" width="60" height="20">
+  <object name="baohu" x="67" y="358" width="45" height="57">
+   <properties>
+    <property name="filename" value="shield-sheet0"/>
+    <property name="name" value="shield"/>
+    <property name="state" value="1"/>
+   </properties>
+  </object>
+  <object name="tong" x="184" y="243" width="41" height="57">
+   <properties>
+    <property name="filename" value="bucket-sheet0"/>
+    <property name="name" value="bucket"/>
+    <property name="state" value="8"/>
+   </properties>
+  </object>
+  <object name="xuedai" x="285" y="359" width="55" height="51">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="xuedi" x="558" y="228" width="35" height="41">
+   <properties>
+    <property name="filename" value="blood_drop-sheet0"/>
+    <property name="name" value="blood_drop"/>
+    <property name="state" value="64"/>
+   </properties>
+  </object>
+  <object name="50" x="1124" y="124" width="44" height="67">
+   <properties>
+    <property name="filename" value="plus50-sheet0"/>
+    <property name="name" value="plus50"/>
+    <property name="state" value="128"/>
+   </properties>
+  </object>
+  <object name="cangketie" x="1303" y="432" width="49" height="64">
+   <properties>
+    <property name="filename" value="plaster-sheet0"/>
+    <property name="name" value="plaster"/>
+    <property name="state" value="16"/>
+   </properties>
+  </object>
+  <object name="xuedai" x="1700" y="180" width="55" height="51">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="xuedai" x="1392" y="332" width="55" height="51">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="xuedi" x="680" y="292" width="35" height="41">
+   <properties>
+    <property name="filename" value="blood_drop-sheet0"/>
+    <property name="name" value="blood_drop"/>
+    <property name="state" value="64"/>
+   </properties>
+  </object>
+  <object name="xuedi" x="592" y="290" width="35" height="41">
+   <properties>
+    <property name="filename" value="blood_drop-sheet0"/>
+    <property name="name" value="blood_drop"/>
+    <property name="state" value="64"/>
+   </properties>
+  </object>
+  <object name="xuedi" x="713" y="228" width="35" height="41">
+   <properties>
+    <property name="filename" value="blood_drop-sheet0"/>
+    <property name="name" value="blood_drop"/>
+    <property name="state" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

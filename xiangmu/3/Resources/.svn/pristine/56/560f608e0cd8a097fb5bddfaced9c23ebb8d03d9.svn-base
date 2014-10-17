@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Root>
+	<Monsters>
+	  <Monster ID="1" Name="นึฮ๏1" ModelID="101" Attack="20" AttackScope="200" Defence="20" Price="10" Hp="200" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="card_1.png" Runanimate="long.png" Dieanimate="long.png">
+	  </Monster>
+	</Monsters>
+	<Towers>
+	  <Tower ID="1" Name="หþ1" ModelID="201" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe1.png" Runanimate="towe1.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="2" Name="หþ2" ModelID="202" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe2.png" Runanimate="towe2.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="3" Name="หþ3" ModelID="203" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe3.png" Runanimate="towe3.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="4" Name="หþ4" ModelID="204" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe4.png" Runanimate="towe4.png" Dieanimate="long.png">
+	  </Tower>
+	</Towers>
+</Root>

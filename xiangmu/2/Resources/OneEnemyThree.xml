@@ -1,0 +1,10 @@
+﻿<Enemys>
+	<FileName NAME="OneEnemyFour.xml" IMAGE="bbg_snow_dragon.jpg">
+	</FileName>
+	<Enemy>
+		<Enem KIND="fly" X="1100" Y="320" XML="Enemy.xml">
+		</Enem>
+		<Enem KIND="walk" X="1000" Y="320" XML="EnemyOne.xml">
+		</Enem>
+	</Enemy>
+</Enemys>

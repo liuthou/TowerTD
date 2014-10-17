@@ -1,0 +1,18 @@
+﻿<Enemys>
+	<FileName NAME="fourEnemyThree.xml" IMAGE="bbg_temple_circle.jpg">
+	</FileName>
+	<Enemy>
+		<Enem KIND="dinosaur" X="1260" Y="360" XML="dinosaurEnemyFour.xml">
+		</Enem>
+		<Enem KIND="dinosaur" X="1230" Y="320" XML="dinosaurEnemyFour.xml">
+		</Enem>
+		<Enem KIND="dinosaur" X="1200" Y="280" XML="dinosaurEnemyFour.xml">
+		</Enem>
+		<Enem KIND="ox" X="1160" Y="360" XML="OxEnemyFour.xml">
+		</Enem>
+		<Enem KIND="ox" X="1130" Y="320" XML="OxEnemyFour.xml">
+		</Enem>
+		<Enem KIND="ox" X="1100" Y="280" XML="OxEnemyFour.xml">
+		</Enem>
+	</Enemy>
+</Enemys>

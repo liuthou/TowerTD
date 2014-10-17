@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+-<Sprites>
+  -<Sprite1 Name ="Firstboss">
+    <image>BossEnemy1.png</image>
+    <FrameNumber>9</FrameNumber>
+    <Dieimage>BossEnemyDie1.png</Dieimage>
+    <DieFrameNumber>4</DieFrameNumber>
+  </Sprite1>
+  -<Sprite2 Name ="Secondboss">
+    <image>BossEnemy_Two4.png</image>
+    <FrameNumber>4</FrameNumber>
+    <Dieimage>BossEnemyDie_Two1.png </Dieimage>
+    <DieFrameNumber>3</DieFrameNumber>
+  </Sprite2>
+  -<Sprite3 Name ="Threeboss">
+    <image>BossEnemy_Three1.png</image>
+    <FrameNumber>4</FrameNumber>
+    <Dieimage>BossEnemyDie_Three1.png</Dieimage>
+    <DieFrameNumber>4</DieFrameNumber>
+  </Sprite3>
+</Sprites>

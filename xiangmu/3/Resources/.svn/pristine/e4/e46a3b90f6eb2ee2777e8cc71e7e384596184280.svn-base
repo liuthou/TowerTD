@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Root>
+	<Waves>
+		<Wave ID="1" Name="第1波" MonsterID="1" delaytime="10" monsternum="5">
+		</Wave>
+	</Waves>
+	<!--ID属性必须从1开始 MonsterID与Monster的ID属性对应 注意:monsternum*0.3*5<delaytime -->
+	<Monsters>
+	  <Monster ID="1" Name="怪物1" ModelID="101" Attack="20" AttackScope="200" Defence="20" Price="10" Hp="200" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="card_1.png" Runanimate="long.png" Dieanimate="long.png">
+	  </Monster>
+	</Monsters>
+	<Towers>
+	  <Tower ID="1" Name="塔1" ModelID="201" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe1.png" Runanimate="towe1.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="2" Name="塔2" ModelID="202" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe2.png" Runanimate="towe2.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="3" Name="塔3" ModelID="203" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe3.png" Runanimate="towe3.png" Dieanimate="long.png">
+	  </Tower>
+	  <Tower ID="4" Name="塔4" ModelID="204" Attack="60" AttackScope="200" Defence="20" Price="10" Hp="2000" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50" Sprite="towe4.png" Runanimate="towe4.png" Dieanimate="long.png">
+	  </Tower>
+	</Towers>
+</Root>

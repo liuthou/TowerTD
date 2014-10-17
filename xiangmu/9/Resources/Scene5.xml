@@ -1,0 +1,12 @@
+
+<Scene>
+   <Sprite1 ID = "1" plist = "gebulin.plist"  name = "run0.png" X = "800" Y = "100" attack = "300" hp = "40000" speed = "1.7" exp = "25">
+     </Sprite1>
+   <Sprite2 ID = "2" plist = "nangua.plist" name = "sol_run0.png" X = "600" Y = "150"  attack = "300" hp = "40000" speed = "2" exp = "30">
+     </Sprite2>
+   <Sprite3 ID = "3" plist = "boos.plist" name = "boss_run0.png" X = "850" Y = "102"  attack = "700" hp = "160000" speed = "1" exp = "250">
+    </Sprite3>
+   <Background X="960.0" Y="320.0">
+      <name>Background1.png</name>
+   </Background>
+</Scene>

@@ -1,0 +1,5 @@
+#define  SWORD_SKILL_PLIST  "sword_skill.plist" 
+#define  SHAN_DIAN_PLIST    "shandian.plist"
+#define  MONSTER_GEBULIN_PLIST  "gebulin.plist"
+#define  MONSTER_NANGUA_PLIST   "nangua.plist"
+#define  MONSTER_BOOS_PLIST     "boos.plist"

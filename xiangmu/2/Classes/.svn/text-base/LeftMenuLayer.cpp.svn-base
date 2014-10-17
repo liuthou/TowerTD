@@ -1,0 +1,19 @@
+
+#include "LeftMenuLayer.h"
+#include "VisibileSize.h"
+bool LeftMenuLayer::init(){
+	if (!Layer::init()) {
+		return false;
+	}
+	auto playerMenu = MenuItemImage::create("Player_Menu_Left.png", "Player_Menu_Left.png", CC_CALLBACK_1(LeftMenuLayer::playerInformation, this));
+	auto leftMenu = Menu::create(playerMenu, NULL);
+	leftMenu->setPosition(Vec2(playerMenu->getContentSize().width / 2, vSize.height - playerMenu->getContentSize().height / 2));
+	addChild(leftMenu);
+
+	return true;
+}
+
+void LeftMenuLayer::playerInformation(Ref * sender){
+
+
+}

@@ -1,0 +1,4 @@
+﻿<oxEnemys>
+	<Enemy HP="800" ARMOR="90" ATTACKRANGE="0" ATTACK="30" SPEED="100" HERODIE="false" ATTACKRATE="10" MOVE="oxmove" DIE="oxdie" ATTACKANI="oxattack" SKILL="oxskill" KIND="near">
+	</Enemy>
+</oxEnemys>

@@ -1,0 +1,46 @@
+
+#include "SelectRole.h"
+
+SelectRole *SelectRole::instence = nullptr;
+SelectRole *SelectRole::getInstence(){
+	if (instence == nullptr){
+		instence = new SelectRole();
+	}
+	return instence;
+}
+void SelectRole::addRoleArmature(Person *person){
+	roleArmatures.pushBack(person);
+}
+void SelectRole::deleteRoleArmature(){
+	for (int i = 0; i < roleArmatures.size(); i++){
+		auto role = roleArmatures.at(i);
+		if (role->getHeroDie() == true){
+			roleArmatures.erase(i);
+			i--;
+		}
+	}
+}
+void SelectRole::RoleClearAll(){
+	roleArmatures.clear();
+}
+Vector<Person *> SelectRole::getEnemyArmatures(){
+	return EnemyArmatures;
+}
+void SelectRole::addArmature(Person *person){
+	EnemyArmatures.pushBack(person);
+}
+void SelectRole::deleteEnemyArmature(){
+	for (int i = 0; i < EnemyArmatures.size(); i++){
+		auto enemy = EnemyArmatures.at(i);
+		if (enemy->getHeroDie() == true){
+			EnemyArmatures.erase(i);
+			i--;
+		}
+	}
+}
+void SelectRole::EnemyClearaAll(){
+	EnemyArmatures.clear();
+}
+Vector<Person *> SelectRole::getRoleArmatures(){
+	return roleArmatures;
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<Models>
+	<Model ID="101" Name="怪物1" Sprite="card_1.png" Runanimate="long.png" Dieanimate="long.png">
+  </Model>
+  <Model ID="201" Name="塔1" Sprite="towe1.png" Runanimate="towe1.png" Dieanimate="long.png">
+  </Model>
+  <Model ID="202" Name="塔2" Sprite="towe2.png" Runanimate="towe2.png" Dieanimate="long.png">
+  </Model>
+  <Model ID="203" Name="塔3" Sprite="towe3.png" Runanimate="towe3.png" Dieanimate="long.png">
+  </Model>
+  <Model ID="204" Name="塔4" Sprite="towe4.png" Runanimate="towe4.png" Dieanimate="long.png">
+  </Model>
+</Models>
+<!-- 塔与怪的模型 怪与塔的模型ID不要相同!!! 怪为1XX  塔为2XX -->

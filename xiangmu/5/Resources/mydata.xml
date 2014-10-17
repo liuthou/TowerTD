@@ -1,0 +1,37 @@
+﻿<DATA>
+    <hp name="hp" hp="800"/>
+    <maxScore name="maxScore" maxScore="0"/>
+    <sound name="sound" sound="1"/>
+    <plus100 name="tool" isOpen="0" fileName="unlocks-sheet0_08.png"/>
+    <shield name="tool" isOpen="0" fileName="unlocks-sheet0_09.png"/>
+    <plaster name="tool" isOpen="0" fileName="unlocks-sheet0_03.png"/>
+    <multi2long name="tool" isOpen="0" fileName="unlocks-sheet0_05.png"/>
+    <bucket name="tool" isOpen="0" fileName="unlocks-sheet0_10.png"/>
+    <TASK name="task">
+        <task1 isFinish="false" tool="plus100">
+            <condition1 name="useablebloodbutton" number="25" curnumber="0" fileName="r1-sheet0_17.png"/>
+            <condition2 name="plus50" number="10" curnumber="0" fileName="r1-sheet0_08.png"/>
+            <condition3 name="multi2short" number="15" curnumber="0" fileName="r1-sheet0_14.png"/>
+        </task1>
+        <task2 isFinish="false" tool="shield">
+            <condition1 name="useablebloodbutton" number="50" curnumber="0" fileName="r1-sheet0_18.png"/>
+            <condition2 name="plus50" number="20" curnumber="0" fileName="r1-sheet0_19.png"/>
+            <condition3 name="blood_drop" number="60" curnumber="0" fileName="r1-sheet0_21.png"/>
+        </task2>
+        <task3 isFinish="false" tool="plaster">
+            <condition1 name="useablebloodbutton" number="100" curnumber="0" fileName="r1-sheet0_13.png"/>
+            <condition2 name="multi2short" number="30" curnumber="0" fileName="r1-sheet0_03.png"/>
+            <condition3 name="beartrap" number="10" curnumber="0" fileName="r1-sheet0_02.png"/>
+        </task3>
+        <task4 isFinish="false" tool="multi2long">
+            <condition1 name="campfire" number="10" curnumber="0" fileName="r1-sheet0_07.png"/>
+            <condition2 name="useablebloodbutton" number="200" curnumber="0" fileName="r1-sheet0_13.png"/>
+            <condition3 name="plaster" number="3" curnumber="0" fileName="r1-sheet0_06.png"/>
+        </task4>
+        <task5 isFinish="false" tool="bucket">
+            <condition1 name="blade_low" number="10" curnumber="0" fileName="r1-sheet0_25.png"/>
+            <condition2 name="e_fence" number="10" curnumber="0" fileName="r1-sheet0_16.png"/>
+            <condition3 name="multi2long" number="5" curnumber="0" fileName="r1-sheet0_11.png"/>
+        </task5>
+    </TASK>
+</DATA>

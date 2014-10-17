@@ -1,0 +1,12 @@
+<Enemys>
+	<FileName NAME="over" IMAGE="bbg_spring_lair.jpg">
+	</FileName>
+	<Enemy>
+		<Enem KIND="snake" X="1100" Y="290" XML="snakeEnemyTwo.xml">
+		</Enem>
+		<Enem KIND="dinosaur" X="1100" Y="350" XML="dinosaurEnemyTwo.xml">
+		</Enem>
+		<Enem KIND="cow" X="1000" Y="320" XML="cowEnemyTwo.xml">
+		</Enem>
+	</Enemy>
+</Enemys>

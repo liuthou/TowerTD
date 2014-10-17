@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>{ 96.00000,120.50000 }</string>
+		<string>{ 90.00000,4.50000 }</string>
+		<string>{ 83.00000,86.50000 }</string>
+		<string>{ 83.00000,127.50000 }</string>
+		<string>{ 91.00000,132.50000 }</string>
+	</array>
+	<array>
+		<string>{ 66.00000,-97.50000 }</string>
+		<string>{ 90.00000,4.50000 }</string>
+		<string>{ 100.00000,-59.50000 }</string>
+		<string>{ 90.00000,-86.50000 }</string>
+		<string>{ 81.00000,-101.50000 }</string>
+	</array>
+	<array>
+		<string>{ 5.00000,-123.50000 }</string>
+		<string>{ 90.00000,4.50000 }</string>
+		<string>{ 66.00000,-97.50000 }</string>
+		<string>{ 54.00000,-126.50000 }</string>
+		<string>{ 28.00000,-136.50000 }</string>
+		<string>{ 13.00000,-137.50000 }</string>
+	</array>
+	<array>
+		<string>{ -18.00000,-139.50000 }</string>
+		<string>{ -58.00000,-121.50000 }</string>
+		<string>{ -87.00000,11.50000 }</string>
+		<string>{ 5.00000,-123.50000 }</string>
+		<string>{ -3.00000,-139.50000 }</string>
+	</array>
+	<array>
+		<string>{ 28.00000,124.50000 }</string>
+		<string>{ 20.00000,56.50000 }</string>
+		<string>{ -11.00000,56.50000 }</string>
+		<string>{ -5.00000,131.50000 }</string>
+	</array>
+	<array>
+		<string>{ 62.00000,44.50000 }</string>
+		<string>{ 20.00000,56.50000 }</string>
+		<string>{ 45.00000,126.50000 }</string>
+		<string>{ 72.00000,130.50000 }</string>
+	</array>
+	<array>
+		<string>{ -100.00000,-48.50000 }</string>
+		<string>{ -87.00000,11.50000 }</string>
+		<string>{ -63.00000,-100.50000 }</string>
+		<string>{ -86.00000,-92.50000 }</string>
+	</array>
+	<array>
+		<string>{ -87.00000,11.50000 }</string>
+		<string>{ -65.00000,21.50000 }</string>
+		<string>{ 79.00000,19.50000 }</string>
+		<string>{ 90.00000,4.50000 }</string>
+		<string>{ 5.00000,-123.50000 }</string>
+	</array>
+	<array>
+		<string>{ -11.00000,56.50000 }</string>
+		<string>{ -33.00000,58.50000 }</string>
+		<string>{ -32.00000,131.50000 }</string>
+	</array>
+	<array>
+		<string>{ 79.00000,19.50000 }</string>
+		<string>{ -65.00000,21.50000 }</string>
+		<string>{ -44.00000,54.50000 }</string>
+		<string>{ -11.00000,56.50000 }</string>
+		<string>{ 20.00000,56.50000 }</string>
+		<string>{ 62.00000,44.50000 }</string>
+	</array>
+	<array>
+		<string>{ 90.00000,4.50000 }</string>
+		<string>{ 79.00000,19.50000 }</string>
+		<string>{ 83.00000,86.50000 }</string>
+	</array>
+	<array>
+		<string>{ -33.00000,58.50000 }</string>
+		<string>{ -44.00000,54.50000 }</string>
+		<string>{ -64.00000,133.50000 }</string>
+		<string>{ -56.00000,135.50000 }</string>
+	</array>
+	<array>
+		<string>{ -11.00000,56.50000 }</string>
+		<string>{ -44.00000,54.50000 }</string>
+		<string>{ -33.00000,58.50000 }</string>
+	</array>
+</array>
+</plist>

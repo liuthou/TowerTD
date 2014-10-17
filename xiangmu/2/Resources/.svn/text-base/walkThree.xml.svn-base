@@ -1,0 +1,4 @@
+﻿<WalkPersons>
+	<Person HP="300" ATTACKRANGE="500" ARMOR="30" ATTACK="50" SPEED="70" HERODIE="false" ATTACKRATE="10" MOVE="walkmove" DIE="walkdie" ATTACKANI="walkattack" SKILL="walkskill" KIND="near">
+	</Person>
+</WalkPersons>

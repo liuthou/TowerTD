@@ -1,0 +1,134 @@
+#include "Person.h"
+#include "tinyxml2/tinyxml2.h"
+#include "GameAttackScene.h"
+#include "EnemyOneBullet.h"
+#include "SelectRole.h"
+bool Person::init(std::string strXml,std::string projectName)
+{
+	if (!Armature::init(projectName))
+	{
+		return false;
+	}
+	this->armaturestatic = noStatic;
+	this->armatureStaticAgo = noStatic;
+	heroDie = false;
+	this->readXml(strXml);
+	this->getAnimation()->setMovementEventCallFunc([=](Armature *armature, MovementEventType movementType, const std::string& movementID){
+		if(SelectRole::getInstence()->getEnemyArmatures().size()>0 && SelectRole::getInstence()->getRoleArmatures().size()>0){
+			if(movementID == animationAttack){
+				if(movementType == MovementEventType::LOOP_COMPLETE){
+					fair();
+				}
+			}
+		}
+	});
+	this->schedule(schedule_selector(Person::judgeStatic));
+	return true;
+}
+
+void Person::readXml(std::string strXml)
+{
+
+	std::string wayXml = FileUtils::getInstance()->fullPathForFilename(strXml);
+	tinyxml2::XMLDocument doc;
+	doc.LoadFile(wayXml.c_str());
+	tinyxml2::XMLElement *root = doc.RootElement();
+	tinyxml2::XMLElement *enemy = root->FirstChildElement();
+
+	const char *mo = enemy->Attribute("MOVE");
+	this->animationMove = StringUtils::format("%s",mo);
+	const char *at = enemy->Attribute("ATTACKANI");
+	this->animationAttack = StringUtils::format("%s",at);
+
+	const char *die = enemy->Attribute("DIE");
+	this->animationDie = StringUtils::format("%s",die);
+
+	const char *skill = enemy->Attribute("SKILL");
+	this->animationSkill = StringUtils::format("%s",skill);
+
+	const char *kind = enemy->Attribute("KIND");
+	this->kindRole = StringUtils::format("%s",kind);
+
+	this->hp = enemy->IntAttribute("HP");
+
+	this->armor = enemy->IntAttribute("ARMOR");
+
+	this->attackValue = enemy->IntAttribute("ATTACK");
+
+	this->speedValue = enemy->IntAttribute("SPEED");
+
+	this->attackRange = enemy->IntAttribute("ATTACKRANGE");
+}
+
+
+void Person::die(){
+	heroDie = true;
+	this->armaturestatic = dieStatic;
+	this->stopAllActions();
+	this->getAnimation()->play(animationDie);
+	auto delaytime = DelayTime::create(1);
+	auto deleteMy = CallFunc::create([=](){
+		this->killMy();
+	});
+	auto seq = Sequence::create(delaytime,deleteMy,nullptr);
+	this->runAction(seq);
+}
+
+void Person::atttack(){
+	this->stopAllActions();
+	this->getAnimation()->play(animationAttack);
+}
+
+void Person::skill(){
+	this->stopAllActions();
+	this->getAnimation()->play(animationSkill);
+}
+std::string Person::getKindRole(){
+	return this->kindRole;
+}
+void Person::setArmaturestatic(ARMATURESTATIC sta){
+	this->armaturestatic = sta;
+}
+void Person::judgeStatic(float t){
+	if(this->armaturestatic == dieStatic){
+		this->unschedule(SEL_SCHEDULE(&Person::judgeStatic));
+	}
+	if(this->armaturestatic == noStatic){
+		return;
+	}
+	if(this->armaturestatic == armatureStaticAgo){
+		return;
+	}
+	this->armatureStaticAgo = armaturestatic;
+	if(this->armaturestatic == attackStatic){
+		this->atttack();
+		return;
+	}
+	if (this->armaturestatic == moveStatic){
+		this->move();
+		return;
+	}
+	if(this->armaturestatic == skillStatic){
+		this->skill();
+	}
+}
+int Person::getHp(){
+	return this->hp;
+}
+void Person::setHp(int attack){
+	if(attack > this->armor){
+		this->hp -= attack-armor;
+	}
+	if(this->hp<=0){
+		this->die();
+	}
+}
+int Person::getArmor(){
+	return this->armor;
+}
+void Person::setArmor(int armor){
+	this->armor += armor;
+}
+void Person::killMy(){
+	this->removeFromParentAndCleanup(true);
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="title" tilewidth="64" tileheight="64">
+  <image source="title.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="23" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tower" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B4wIhG42NT205a6cPmfnxipIYBrcOHGoAYv2DzNzF8QuYSo5fWgBpxiYs/FOIfBEiJd2L9RI0woHX+p5a5uPLHYAYAsNwAMw==
+  </data>
+ </layer>
+ <objectgroup name="path" width="32" height="16">
+  <object x="58" y="446"/>
+  <object x="246" y="446"/>
+  <object x="242" y="702"/>
+  <object x="698" y="700"/>
+  <object x="700" y="576"/>
+  <object x="1084" y="572"/>
+  <object x="1088" y="212"/>
+ </objectgroup>
+ <objectgroup name="path_t" width="32" height="16">
+  <object x="62" y="702"/>
+  <object x="242" y="700"/>
+  <object x="248" y="442"/>
+  <object x="700" y="450"/>
+  <object x="706" y="316"/>
+  <object x="1082" y="316"/>
+  <object x="1082" y="212"/>
+ </objectgroup>
+ <objectgroup name="path_r" width="32" height="16">
+  <object x="1082" y="994"/>
+  <object x="1086" y="834"/>
+  <object x="698" y="830"/>
+  <object x="704" y="310"/>
+  <object x="1082" y="318"/>
+  <object x="1084" y="212"/>
+ </objectgroup>
+ <objectgroup name="path_f" width="32" height="16">
+  <object x="2042" y="448"/>
+  <object x="1924" y="446"/>
+  <object x="1914" y="710"/>
+  <object x="1466" y="706"/>
+  <object x="1464" y="316"/>
+  <object x="1088" y="314"/>
+  <object x="1088" y="206"/>
+ </objectgroup>
+ <objectgroup name="path_v" width="32" height="16">
+  <object x="2044" y="710"/>
+  <object x="1916" y="702"/>
+  <object x="1918" y="444"/>
+  <object x="1468" y="446"/>
+  <object x="1464" y="314"/>
+  <object x="1080" y="316"/>
+  <object x="1084" y="208"/>
+ </objectgroup>
+ <objectgroup name="path_s" width="32" height="16">
+  <object x="1076" y="988"/>
+  <object x="1084" y="828"/>
+  <object x="1466" y="836"/>
+  <object x="1464" y="314"/>
+  <object x="1092" y="316"/>
+  <object x="1082" y="212"/>
+ </objectgroup>
+</map>

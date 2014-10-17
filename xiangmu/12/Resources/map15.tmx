@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="title" tilewidth="64" tileheight="64">
+  <image source="title.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="123" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tower" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQx0w4mBj4w8EoLUbGNFoWphHjB3oagZD2FMCqOV/esU/Lc3Dl8doBYgNP0LhTqp7iYnjgQC47CY1nY4CBAAAikwAJg==
+  </data>
+ </layer>
+ <objectgroup name="path" width="32" height="16">
+  <object x="1784" y="438"/>
+  <object x="224" y="440" width="38"/>
+ </objectgroup>
+ <objectgroup name="path_t" width="32" height="16">
+  <object x="1786" y="440"/>
+  <object x="1732" y="440"/>
+  <object x="1726" y="126"/>
+  <object x="1214" y="126"/>
+  <object x="1216" y="254"/>
+  <object x="1340" y="258"/>
+  <object x="1342" y="444" height="2"/>
+  <object x="1342" y="446"/>
+  <object x="898" y="442"/>
+  <object x="896" y="320"/>
+  <object x="766" y="320"/>
+  <object x="764" y="130"/>
+  <object x="444" y="128"/>
+  <object x="448" y="440"/>
+  <object x="222" y="438" width="34"/>
+ </objectgroup>
+ <objectgroup name="path_r" width="32" height="16">
+  <object x="1782" y="440"/>
+  <object x="1728" y="446"/>
+  <object x="1726" y="126"/>
+  <object x="1212" y="124"/>
+  <object x="1216" y="258"/>
+  <object x="1336" y="258"/>
+  <object x="1342" y="448"/>
+  <object x="898" y="444"/>
+  <object x="892" y="576"/>
+  <object x="766" y="574"/>
+  <object x="766" y="770"/>
+  <object x="444" y="764"/>
+  <object x="446" y="440"/>
+  <object x="220" y="436" width="32"/>
+ </objectgroup>
+ <objectgroup name="path_f" width="32" height="16">
+  <object x="1782" y="442"/>
+  <object x="1728" y="442"/>
+  <object x="1730" y="766"/>
+  <object x="1212" y="770"/>
+  <object x="1218" y="644"/>
+  <object x="1342" y="638"/>
+  <object x="1342" y="444"/>
+  <object x="900" y="440"/>
+  <object x="898" y="320"/>
+  <object x="770" y="324"/>
+  <object x="762" y="130"/>
+  <object x="442" y="126"/>
+  <object x="448" y="436"/>
+  <object x="254" y="438"/>
+ </objectgroup>
+ <objectgroup name="path_s" width="32" height="16">
+  <object x="1782" y="446"/>
+  <object x="1728" y="444"/>
+  <object x="1730" y="764"/>
+  <object x="1210" y="770"/>
+  <object x="1220" y="646"/>
+  <object x="1340" y="642"/>
+  <object x="1338" y="444"/>
+  <object x="898" y="436"/>
+  <object x="890" y="572"/>
+  <object x="766" y="574"/>
+  <object x="764" y="768"/>
+  <object x="438" y="762"/>
+  <object x="450" y="442"/>
+  <object x="214" y="436" width="42"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,14 @@
+﻿<Enemys>
+	<FileName NAME="over" IMAGE="bbg_snow_road.jpg">
+	</FileName>
+	<Enemy>
+		<Enem KIND="fly" X="1120" Y="290" XML="Enemy.xml">
+		</Enem>
+		<Enem KIND="walk" X="1020" Y="290" XML="EnemyOne.xml">
+		</Enem>
+		<Enem KIND="fly" X="1100" Y="350" XML="Enemy.xml">
+		</Enem>
+		<Enem KIND="walk" X="1000" Y="350" XML="EnemyOne.xml">
+		</Enem>
+	</Enemy>
+</Enemys>

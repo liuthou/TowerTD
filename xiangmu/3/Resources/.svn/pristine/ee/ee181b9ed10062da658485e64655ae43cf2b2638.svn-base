@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Monsters>
+  <Monster ID="1" Name="怪物1" ModelID="101" Attack="20" AttackScope="200" Defence="20" Price="10" Hp="200" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="50">
+  </Monster>
+</Monsters>
+<!-- ModeID到Model.xml中查找 SkillID到Skill.xml中查找  -->

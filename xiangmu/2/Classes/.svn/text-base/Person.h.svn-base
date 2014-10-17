@@ -1,0 +1,60 @@
+#ifndef  _PERSON_H
+#define  _PERSON_H
+#include "cocos2d.h"
+#include "cocostudio/CocoStudio.h"
+#include "ui/CocosGUI.h"
+using namespace cocos2d;
+using namespace cocostudio;
+using namespace ui;
+enum  ARMATURESTATIC
+{
+	moveStatic,
+	dieStatic,
+	attackStatic,
+	skillStatic,
+	noStatic
+};
+class Person: public Armature
+{
+public:
+	CC_SYNTHESIZE(int, energy, Energy);
+	CC_SYNTHESIZE(int, attackValue, AttackValue);
+	CC_SYNTHESIZE(int, speedValue, SpeedValue);
+	CC_SYNTHESIZE(bool, heroDie, HeroDie);
+	CC_SYNTHESIZE(float, attackRate, AttackRate);
+	CC_SYNTHESIZE(Vector<Sprite *>, vecSkill, VecSkill);
+	CC_SYNTHESIZE(Vector<Sprite *>, vecEquip, VecEquip);
+	CC_SYNTHESIZE(int,attackRange,AttackRange);
+	virtual void move() = 0;
+	virtual void atttack();
+	virtual void skill();
+	virtual void fair() = 0;
+	std::string getKindRole();
+	//
+	virtual void setArmaturestatic(ARMATURESTATIC sta);
+	//
+	virtual void die();
+	virtual int getHp();
+	virtual void setHp(int hp);
+	virtual int getArmor();
+	virtual void setArmor(int armor);
+	virtual void killMy();
+protected:
+	virtual bool init(std::string strXml,std::string projectName);
+	std::string animationMove;
+	std::string animationDie;
+	std::string animationAttack;
+	std::string animationSkill;
+	std::string jsonFileName;
+	std::string kindRole;
+	int armor;
+	int hp;
+	void readXml(std::string strXml);
+	//
+	ARMATURESTATIC armaturestatic;
+	ARMATURESTATIC armatureStaticAgo;
+private:
+	void judgeStatic(float t);
+	
+};
+#endif

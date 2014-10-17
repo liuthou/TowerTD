@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>bulletLeft1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{665,0},{314,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{5,4},{314,174}}</string>
+				<key>sourceSize</key>
+				<string>{319,180}</string>
+			</dict>
+
+			<key>bulletLeft2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339,175},{325,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{7,4},{325,174}}</string>
+				<key>sourceSize</key>
+				<string>{332,182}</string>
+			</dict>
+
+			<key>bulletLeft3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{338,177}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{2,4},{338,177}}</string>
+				<key>sourceSize</key>
+				<string>{340,187}</string>
+			</dict>
+
+			<key>bulletLeft4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339,350},{316,161}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{4,8},{316,161}}</string>
+				<key>sourceSize</key>
+				<string>{327,177}</string>
+			</dict>
+
+			<key>bulletRight1 .png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{665,175},{314,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,4},{314,174}}</string>
+				<key>sourceSize</key>
+				<string>{319,180}</string>
+			</dict>
+
+			<key>bulletRight2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{339,0},{325,174}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,4},{325,174}}</string>
+				<key>sourceSize</key>
+				<string>{332,182}</string>
+			</dict>
+
+			<key>bulletRight3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,178},{338,177}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,4},{338,177}}</string>
+				<key>sourceSize</key>
+				<string>{340,187}</string>
+			</dict>
+
+			<key>bulletRight4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{656,350},{316,161}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{7,8},{316,161}}</string>
+				<key>sourceSize</key>
+				<string>{327,177}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{1024,512}</string>
+			<key>textureFileName</key>
+			<string>bullet1.png</string>
+			</dict>
+		</dict>
+</plist>

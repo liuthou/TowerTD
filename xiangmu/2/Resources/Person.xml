@@ -1,0 +1,4 @@
+﻿<Persons>
+	<Person HP="500" ARMOR="70" ATTACK="100" ATTACKRANGE="400" SPEED="50" HERODIE="false" ATTACKRATE="10" MOVE="Run" DIE="Die" ATTACKANI="Attack" SKILL="Skill" KIND="long">
+	</Person>
+</Persons>

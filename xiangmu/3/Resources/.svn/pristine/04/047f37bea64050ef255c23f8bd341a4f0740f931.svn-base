@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Root>
+	<Waves>
+		<!--ID属性必须从1开始 MonsterID与Monster的ID属性对应 注意:monsternum*0.3*5<delaytime -->
+		<Wave ID="1" Name="第1波" MonsterID="1" delaytime="15" monsternum="5">
+		</Wave>
+		<Wave ID="2" Name="第2波" MonsterID="2" delaytime="15" monsternum="5">
+		</Wave>
+		<Wave ID="3" Name="第3波" MonsterID="2" delaytime="15" monsternum="5">
+		</Wave>
+		<Wave ID="4" Name="第4波" MonsterID="2" delaytime="15" monsternum="5">
+		</Wave>
+		<Wave ID="5" Name="第5波" MonsterID="3" delaytime="15" monsternum="5">
+		</Wave>
+	</Waves>
+	<Monsters>
+	  <Monster ID="1" Name="怪物1" ModelID="101" Attack="5" AttackScope="100" Defence="20" Price="10" Hp="100" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai1.png" Runanimate="guai1.png" Dieanimate="guai1.png" BulletPic="jiantou.png">
+	  </Monster>
+	  <Monster ID="2" Name="怪物2" ModelID="101" Attack="10" AttackScope="100" Defence="20" Price="10" Hp="100" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai2.png" Runanimate="guai2.png" Dieanimate="guai2.png" BulletPic="jiantou.png">
+	  </Monster>
+	  <Monster ID="3" Name="怪物3" ModelID="101" Attack="15" AttackScope="100" Defence="20" Price="20" Hp="100" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai3.png" Runanimate="guai3.png" Dieanimate="guai3.png" BulletPic="jiantou.png">
+	  </Monster>
+	  <Monster ID="4" Name="怪物4" ModelID="101" Attack="20" AttackScope="200" Defence="20" Price="20" Hp="200" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai4.png" Runanimate="guai4.png" Dieanimate="guai4.png" BulletPic="jiantou.png">
+	  </Monster>
+	  <Monster ID="5" Name="怪物5" ModelID="101" Attack="25" AttackScope="200" Defence="20" Price="30" Hp="200" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai5.png" Runanimate="guai5.png" Dieanimate="guai5.png" BulletPic="jiantou.png">
+	  </Monster>
+	  <Monster ID="6" Name="怪物6" ModelID="101" Attack="30" AttackScope="200" Defence="20" Price="40" Hp="300" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="guai6.png" Runanimate="guai6.png" Dieanimate="guai6.png" BulletPic="jiantou.png">
+	  </Monster>
+	</Monsters>
+	<!--特效:Lowspeedtime减速时间 Frozentime冰冻时间 Firetime火焰时间-->
+	<Towers>
+	  <Tower ID="1" Name="塔1" ModelID="201" Attack="50" AttackScope="200" Defence="20" Price="50" Hp="500" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="towe1.png" Runanimate="towe1.png" Dieanimate="long.png" BulletPic="jiantou.png">
+	  </Tower>
+	  <Tower ID="2" Name="塔2" ModelID="202" Attack="70" AttackScope="200" Defence="20" Price="100" Hp="400" Firespeed="1" Movespeed="20" SkillID="1" BulletSpeed="300" Sprite="towe2.png" Runanimate="towe2.png" Dieanimate="long.png" BulletPic="jiantou.png" Lowspeedtime="2">
+	  </Tower>
+	</Towers>
+</Root>

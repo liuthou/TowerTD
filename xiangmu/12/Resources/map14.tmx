@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="title" tilewidth="64" tileheight="64">
+  <image source="title.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="132" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tower" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8gHEQmUmJWwZKLzXNZESj6aWfFv4nB6C7A5t/8LkVXT2l4TkYADa/E/IPqeFGCSDWLfSwi16AUDqlZXlCz7glFQxGNw1GAACkIAAn
+  </data>
+ </layer>
+ <objectgroup name="path" width="32" height="16">
+  <object x="190" y="-2"/>
+  <object x="188" y="130"/>
+  <object x="380" y="128"/>
+  <object x="380" y="324"/>
+  <object x="640" y="322"/>
+  <object x="640" y="450"/>
+  <object x="1024" y="450"/>
+  <object x="1020" y="638"/>
+  <object x="1406" y="644"/>
+  <object x="1406" y="768"/>
+  <object x="1718" y="768"/>
+ </objectgroup>
+ <objectgroup name="path_t" width="32" height="16">
+  <object x="1472" y="-2"/>
+  <object x="1474" y="132"/>
+  <object x="1724" y="136"/>
+  <object x="1716" y="314"/>
+  <object x="1524" y="310"/>
+  <object x="1530" y="452"/>
+  <object x="1854" y="450"/>
+  <object x="1848" y="598"/>
+ </objectgroup>
+ <objectgroup name="path_r" width="32" height="16">
+  <object x="18" y="848"/>
+  <object x="1408" y="832"/>
+  <object x="1404" y="766"/>
+  <object x="1720" y="770"/>
+ </objectgroup>
+</map>

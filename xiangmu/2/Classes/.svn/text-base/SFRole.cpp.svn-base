@@ -1,0 +1,32 @@
+#include "SFRole.h"
+#include "RoleOneBullet.h"
+#include "GameAttackScene.h"
+#include "Bullets.h"
+SFRole * SFRole::create(std::string fileName){
+	SFRole * sf = new SFRole();
+	if(sf && sf->init(fileName)){
+		sf->autorelease();
+		return sf;
+	}
+	CC_SAFE_DELETE(sf);
+	return nullptr;
+}
+bool SFRole::init(std::string fileName){
+	if(!Person::init(fileName,PROJECTNAME)){
+		return false;
+	}
+	return true;
+}
+void SFRole::move(){
+	this->getAnimation()->play(animationMove);
+	this->runAction(MoveBy::create((960-this->getPositionX())/speedValue,Vec2(960-this->getPositionX(),0)));
+}
+void SFRole::fair(){
+	if(this == nullptr){
+		return;
+	}
+	RoleOneBullet *bullet = RoleOneBullet::create(Vec2(this->getPositionX(),this->getPositionY()),this->getAttackValue());
+	Bullets::getInstence()->addRoleBullets(bullet);
+	GameAttackScene *scene = dynamic_cast<GameAttackScene *>(Director::getInstance()->getRunningScene());
+	scene->getAttackLayer()->addChild(bullet);
+}

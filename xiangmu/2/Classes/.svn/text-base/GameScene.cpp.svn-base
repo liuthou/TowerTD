@@ -1,0 +1,29 @@
+
+#include "GameScene.h"
+#include "GameSceneBG.h"
+#include "RightMenuLayer.h"
+#include "LeftMenuLayer.h"
+bool GameScene::init(){
+	if (!Scene::init()){
+		return false;
+	}
+
+	//background layer
+	GameSceneBG * gameSceneBG = GameSceneBG::create();
+	this->addChild(gameSceneBG);
+
+	//right menu
+	RightMenuLayer *rightmenuLayer = RightMenuLayer::create();
+	this->addChild(rightmenuLayer);
+
+	//left menu
+	LeftMenuLayer * leftmenuLayer = LeftMenuLayer::create();
+	this->addChild(leftmenuLayer);
+
+
+
+
+
+	return true;
+}
+

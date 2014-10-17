@@ -1,0 +1,90 @@
+8
+
+dir
+5
+svn://172.16.8.224/dota/Resources/dota1
+svn://172.16.8.224/dota
+
+
+
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+
+svn:special svn:externals svn:needs-lock
+
+dota.ExportJson
+file
+
+
+
+
+2014-09-24T04:11:04.750974Z
+3cf8b284364318cc1cbd4a4a56091be3
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+dota0.plist
+file
+
+
+
+
+2014-09-24T04:11:04.146480Z
+3f8a6f685a716dbc3dc9b3df272face5
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+dota.xml.animation
+file
+
+
+
+
+2014-09-25T08:33:02.761702Z
+a4c7a208d98df063da48853007e41807
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+Backup
+dir
+
+Json
+dir
+
+Ruler
+dir
+
+dota.rar
+file
+
+
+
+
+2014-09-24T03:56:57.790853Z
+b8a23274ed9d1ac772ceea3ef78295f6
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+has-props
+
+dota0.png
+file
+
+
+
+
+2014-09-24T04:11:03.745334Z
+76bed95957dcdba4aee26a07b748eba0
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+has-props
+
+Resources
+dir
+

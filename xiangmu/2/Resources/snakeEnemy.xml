@@ -1,0 +1,4 @@
+﻿<snakeEnemy>
+	<snake HP="200" ATTACKRANGE="500" ARMOR="60" ATTACK="100" SPEED="100" HERODIE="false" ATTACKRATE="10" MOVE="snakemove" DIE="snakedie" ATTACKANI="snakeattack" SKILL="snakeskill" KIND="near">
+	</snake>
+</snakeEnemy>

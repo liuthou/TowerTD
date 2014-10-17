@@ -1,0 +1,4 @@
+﻿<OneOxEnemy>
+	<Enemy HP="500" ARMOR="50" ATTACKRANGE="0" ATTACK="30" SPEED="100" HERODIE="false" ATTACKRATE="10" MOVE="sheepm" DIE="sheepd" ATTACKANI="sheepa" SKILL="sheeps" KIND="near">
+	</Enemy>
+</OneOxEnemy>

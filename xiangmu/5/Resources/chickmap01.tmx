@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="texture02" tilewidth="32" tileheight="32">
+  <image source="texture02.png" width="2048" height="2048"/>
+ </tileset>
+ <objectgroup name="blocksLayer" width="60" height="20">
+  <object name="gouzi" x="105" y="97" width="46" height="58">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="chainhook-sheet0"/>
+    <property name="name" value="chainhook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="gouzi" x="561" y="97" width="44" height="59">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="chainhook-sheet0"/>
+    <property name="name" value="chainhook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="dianwang" x="352" y="352" width="83" height="66">
+   <properties>
+    <property name="attack" value="0.15"/>
+    <property name="filename" value="e_fence-sheet0"/>
+    <property name="name" value="e_fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="xiaotizi" x="1339" y="374" width="63" height="64">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="gouzi" x="1819" y="81" width="60" height="61">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="chainhook-sheet0"/>
+    <property name="name" value="chainhook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="huoyan" x="803" y="340" width="88" height="80">
+   <properties>
+    <property name="attack" value="0.15"/>
+    <property name="filename" value="campfire-sheet0"/>
+    <property name="name" value="campfire"/>
+    <property name="picnumber" value="9"/>
+    <property name="type" value="true"/>
+   </properties>
+  </object>
+  <object name="xiaotizi" x="1820" y="374" width="63" height="64">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="toolsLayer" width="60" height="20">
+  <object name="shuangbei" x="368" y="249" width="47" height="50">
+   <properties>
+    <property name="filename" value="multi2short-sheet0"/>
+    <property name="name" value="multi2short"/>
+    <property name="state" value="2"/>
+   </properties>
+  </object>
+  <object name="xuedai" x="58" y="316" width="43" height="48">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="xuedai" x="1023" y="176" width="54" height="48">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="baohu" x="1454" y="183" width="61" height="60">
+   <properties>
+    <property name="filename" value="shield-sheet0"/>
+    <property name="name" value="shield"/>
+    <property name="state" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="texture02" tilewidth="32" tileheight="32">
+  <image source="texture02.png" width="2048" height="2048"/>
+ </tileset>
+ <objectgroup name="blocksLayer" width="60" height="20">
+  <object name="block" x="704" y="110" width="77" height="83">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="blade_low-sheet0"/>
+    <property name="name" value="blade_low"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="920" y="363" width="67" height="71">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="1485" y="46" width="100" height="112">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="ropehook-sheet0"/>
+    <property name="name" value="ropehook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="1620" y="363" width="69" height="68">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="1034" y="113" width="77" height="83">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="blade_low-sheet0"/>
+    <property name="name" value="blade_low"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="1778" y="38" width="100" height="112">
+   <properties>
+    <property name="attack" value="0.1"/>
+    <property name="filename" value="ropehook-sheet0"/>
+    <property name="name" value="ropehook"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+  <object name="block" x="309" y="363" width="67" height="71">
+   <properties>
+    <property name="attack" value="0.05"/>
+    <property name="filename" value="fence-sheet0"/>
+    <property name="name" value="fence"/>
+    <property name="type" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="toolsLayer" width="60" height="20">
+  <object name="tool" x="447" y="355" width="57" height="60">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="tool" x="83" y="353" width="60" height="61">
+   <properties>
+    <property name="filename" value="multi2short-sheet0"/>
+    <property name="name" value="multi2short"/>
+    <property name="state" value="2"/>
+   </properties>
+  </object>
+  <object name="tool" x="947" y="278" width="41" height="47">
+   <properties>
+    <property name="filename" value="multi2short-sheet0"/>
+    <property name="name" value="multi2short"/>
+    <property name="state" value="2"/>
+   </properties>
+  </object>
+  <object name="tool" x="1600" y="153" width="64" height="63">
+   <properties>
+    <property name="filename" value="plus50-sheet0"/>
+    <property name="name" value="plus50"/>
+    <property name="state" value="128"/>
+   </properties>
+  </object>
+  <object name="tool" x="1342" y="319" width="45" height="51">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="tool" x="1709" y="351" width="51" height="55">
+   <properties>
+    <property name="filename" value="multi2short-sheet0"/>
+    <property name="name" value="multi2short"/>
+    <property name="state" value="2"/>
+   </properties>
+  </object>
+  <object name="tool" x="1179" y="89" width="43" height="49">
+   <properties>
+    <property name="filename" value="plus50-sheet0"/>
+    <property name="name" value="plus50"/>
+    <property name="state" value="128"/>
+   </properties>
+  </object>
+  <object name="tool" x="700" y="317" width="45" height="51">
+   <properties>
+    <property name="filename" value="useablebloodbutton-sheet0"/>
+    <property name="name" value="useablebloodbutton"/>
+    <property name="state" value="32"/>
+   </properties>
+  </object>
+  <object name="jinshuangbei" x="548" y="120" width="62" height="66">
+   <properties>
+    <property name="filename" value="multi2long-sheet0"/>
+    <property name="name" value="multi2long"/>
+    <property name="state" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

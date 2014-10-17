@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Users\admin\Desktop\Fianl\Resources\GameOver</ProjectDir>
+  <Version>1.5.0.0</Version>
+  <Resources>C:\Users\admin\Desktop\Fianl\Resources\GameOver\Resources</Resources>
+  <Name>GameOver</Name>
+  <JsonFileName>GameOver.json</JsonFileName>
+  <JsonFolder>C:\Users\admin\Desktop\Fianl\Resources\GameOver\Json</JsonFolder>
+  <JsonList>
+    <string>GameOver_1.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>C:\Users\admin\Desktop\Fianl\Resources\GameOver\GameOver.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList>
+    <string>GameOver0.plist</string>
+  </imageFileList>
+  <imagePngList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>GameOver_1.json</CurrentUIJson>
+</UIProject>

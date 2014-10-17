@@ -1,0 +1,58 @@
+8
+
+dir
+5
+svn://172.16.8.224/dota/Resources/dota1/Backup
+svn://172.16.8.224/dota
+
+
+
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+
+
+svn:special svn:externals svn:needs-lock
+
+20140924 140006
+dir
+
+20140924 141006
+dir
+
+20140924 142006
+dir
+
+20140924 134006
+dir
+
+20140924 135006
+dir
+
+20140924 140506
+dir
+
+20140924 141506
+dir
+
+20140924 142506
+dir
+
+20140924 134506
+dir
+
+20140924 135506
+dir
+
+NormalCloseTag.xml
+file
+
+
+
+
+2014-09-25T08:33:02.910800Z
+613de1685a5baff293cdefd53101532e
+2014-09-26T01:55:20.859996Z
+5
+huangyc
+

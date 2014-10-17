@@ -1,0 +1,39 @@
+#include "Hploadingbar.h"
+HpLoadingbar * HpLoadingbar::create(Person * person)
+{
+	auto hploadingbar = new HpLoadingbar();
+	if (hploadingbar&&hploadingbar->init(person))
+	{
+		hploadingbar->autorelease();
+		return hploadingbar;
+	}
+	CC_SAFE_DELETE(hploadingbar);
+	return nullptr;
+}
+bool HpLoadingbar::init(Person * person)
+{
+	if (!Layer::init())
+	{
+		return false;
+	}
+	person1 = person;
+	auto uiLayer = GUIReader::getInstance()->widgetFromJsonFile("LoadingBar_1/LoadingBar_1.ExportJson");
+
+	loadingBar = (LoadingBar *)uiLayer->getChildByTag(5);
+	loadingBar->setPercent(0);
+	this->addChild(uiLayer);
+	this->scheduleUpdate();
+	return true;
+}
+void HpLoadingbar::update(float t)
+{
+	//loadingBar->setPercent(loadingBar->getPercent()+0.3);
+	if(person1 == nullptr){
+		return;
+	}
+// 	if(100-person1->getHp()){
+// 		loadingBar->setPercent(100);
+// 		return;
+// 	}
+// 	loadingBar->setPercent(100-person1->getHp());
+}
